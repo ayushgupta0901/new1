@@ -1,0 +1,15 @@
+<html>
+<h1>
+    Final Result
+</h1>
+    <body>
+        {% if result>=50 %}
+        <h1>Score is {{result}}</h1><br>
+        <h2>The student Passed the Exam </h2>
+        {% else %}
+        <h1>Score is {{result}}</h1><br>
+        <h2> The Student Failed the Exam </h2>
+        {% endif %}
+
+    </body>
+</html>
